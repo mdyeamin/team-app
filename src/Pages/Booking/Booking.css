@@ -1,0 +1,14 @@
+.purchase{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+
+
+@media only screen and (max-width:668px) {
+    .purchase{
+
+        grid-template-columns: repeat(1,1fr);
+        
+    }  
+}

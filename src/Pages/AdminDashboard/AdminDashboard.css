@@ -1,0 +1,45 @@
+.admin-area{
+    border-right: 1.2rem solid #131A25;
+    
+}
+.all-menu button{
+background:#131A25 ;
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+padding: 6px 0 6px 50px;
+border: 0;
+border-radius: 6px;
+width: 80%;
+text-align:left ;
+
+}
+
+.all-menu li{
+    list-style-type: none;
+}
+.dashboard{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.dashboardprofile img{
+border-radius: 50%;
+margin-top: 20px;
+}
+.dashboardprofile p {
+    font-size: 26px;
+}
+
+.ico{
+    font-size: 2rem;
+    margin-right: .5rem;
+}
+
+
+
+@media only screen and (max-width:668px) {
+    .admin-area{
+        border-right:none;
+    }
+}

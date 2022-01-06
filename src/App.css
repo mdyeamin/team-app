@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+.products-area{
+  background-color: #F9FAFB;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+.product-card{
+background: #fff;
+border-radius: 8px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.img{
+  transition: .3s;
+}
+.price_shop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation{
+  background-color: #10b981;
+}
+.img:hover{
+  transform: scale(1.05); 
+   /* (150% zoom - Note: if the zoom is too large, it will go outside of the */
+
+
+
+}
+@media only screen and (max-width:686px) {
+  .products{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}

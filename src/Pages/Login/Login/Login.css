@@ -1,0 +1,20 @@
+.form-area{
+    width: 50%;
+    margin: auto;
+}
+.form-area input[type=submit], .google-signin{
+    width: 11rem;
+    height: 2.7rem;
+    background: #13AE92;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.google-signin{
+    margin-top: 20px;
+}
+.ask{
+font-size: 18px;
+}

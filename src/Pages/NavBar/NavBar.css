@@ -1,0 +1,27 @@
+.navbarlink button{
+background: #ececec;
+color: #000;
+font-weight: 500;
+font-size: 16px;
+padding: 8px 18px;
+border-radius: 5px;
+margin: 0 10px;
+transition: .6s;
+border: 0;
+}
+.navbarlink button:hover{
+background: #385170;
+color:#ececec ;
+}
+.navuser img{
+    width: 25%;
+border-radius: 50%;
+margin-right: 10px;
+}
+.log{
+    font-size: 24px;
+   transition: .6s;
+}
+.log-btn:hover .log{
+padding-left: 4px;
+}

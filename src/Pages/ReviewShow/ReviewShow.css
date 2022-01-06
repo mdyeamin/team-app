@@ -1,0 +1,16 @@
+.review{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+}
+
+.icon-color{
+    color: #F79028;
+}
+
+
+@media only screen and (max-width:668px) {
+    .review{
+       grid-template-columns: repeat(1,1fr);
+    }
+}
